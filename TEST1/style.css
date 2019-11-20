@@ -1,0 +1,48 @@
+/*ul {
+  color: red;
+  width: 500px;
+  border: 1px solid black;
+}
+p {
+  color: green;
+}*/
+body {
+  width: 600px;
+/*  页面像素宽度*/
+  margin: 0 auto;
+  /*第一个值代表元素的上方和下方（在这个例子中设置为 0），而第二个值代表左边和右边（在这里，auto 是一个特殊的值，意思是水平方向上左右对称）*/
+  background-color: #FF9500;
+  padding: 0 20px 20px 20px;
+ /* 四周空间  上、右、下、左*/
+  border: 5px solid black;
+/*  边框*/
+}
+html {
+  /* px 表示 “像素（pixels）”: 基础字号为 10 像素 */
+  font-size: 10px; 
+  /* Google fonts 输出的 CSS */
+  font-family: 'Open Sans', sans-serif; 
+  background-color: #00539F;
+}
+h1 {
+  font-size: 60px;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;    
+  color: #00539F;
+  text-shadow: 3px 3px 1px black; 
+/*  水平偏移值,垂直偏移值,模糊半径,基色*/
+}
+h2,h3,h4,h5 {
+  text-align: center;
+}
+
+p, li,ol {
+  font-size: 16px;    
+  line-height: 2;
+  letter-spacing: 1px;
+}
+img {
+  display: block;
+  margin: 0 auto;
+}
